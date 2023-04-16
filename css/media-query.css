@@ -1,0 +1,211 @@
+@charset "UTF-8"
+*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    nav ul li {
+        font-size: 1em;
+        display: block;
+    }
+    div.logo{
+        margin-top: 10px;
+        width: 85px;
+        height: 30px;
+        right: 35%;
+        background-image: url(../imagens/logo-p.png);
+        background-repeat: no-repeat;
+    }
+    div.invert{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    div#nomes{
+        height: 140px;
+    }
+    div#nome1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    div#info > p{
+        font-size: 1.1em;
+        padding: 0px 25px;
+        width: 80%;
+        margin-top: 0px;
+    }
+    div#foto{
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 110%;
+        top: 200px;
+        right: 10px;
+    }
+    section{
+        display: block;
+        position: relative;
+        height: 900px;
+        
+    }
+    div#nike{
+        position: absolute;
+        top: 90%;
+        left: 20%;
+    }
+    button#nike{
+        width: 100%;
+        height: 50px;
+    }
+    div#info{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        top: 370px;
+    }
+
+    div#produto{
+        top: -100px;
+        right: -50%;
+        height: 500px;
+        position: relative;
+        border-radius: 100% 0% 0% 100%;
+        width: 50%;
+    }
+    div#foto{
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 180%;
+        top: 100px;
+        right: 10%;
+    }
+    footer > p{
+        font-size: 0.7em;
+        width: 50%;
+        margin-left: 90px;
+    }
+    div#social{
+        margin-right: 10px;
+    }
+    #linkedin{
+        margin-right: 5px;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    ul{
+        margin-top: 13px;
+    }
+    nav ul li{
+        font-size: 1.2em;
+        padding-right: 5px;
+        display: block;
+    }
+    #cadastro{
+        margin-right: 10px;
+    }
+    div#cadastro > a{
+        font-size: 1.3em;
+        margin-right: 0px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    div.logo{
+        margin-top: 10px;
+        width: 85px;
+        height: 30px;
+        margin-left: 50px;
+        background-image: url(../imagens/logo-p.png);
+        background-repeat: no-repeat;
+    }
+    div#nome1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    div#info > p{
+        font-size: 1.3em;
+        padding: 0px 25px;
+        width: 90%;
+    }
+    section{
+        display: block;
+        position: relative;
+        height: 900px;
+        
+    }
+    div#nike{
+        position: absolute;
+        top: 94%;
+        right: 2%;
+    }
+    button#nike{
+        width: 200px;
+        height: 50px;
+    }
+  
+    div#info{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        top: 370px;
+    }
+    div#produto{
+        top: -100px;
+        right: -50%;
+        height: 500px;
+        position: relative;
+        border-radius: 100% 0% 0% 100%;
+        width: 50%;
+    }
+    div#foto{
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        top: 100px;
+        right: 50px;
+    }
+    div.invert{
+        left: -40px;
+    }
+    footer > p{
+        font-size: 0.7em;
+        margin-left: 20%;
+    }
+    footer{
+        border: 1px solid black;
+    }
+}
+    
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    div#nome1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+        margin-left: 10px;
+    }
+    div#info > p{
+        font-size: 1.3em;
+        padding: 0px 25px;
+        width: 80%;
+        margin-top: 0px;
+    }
+    div#foto{
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 110%;
+        top: 100px;
+        right: 10px;
+        height: 500px;
+    }
+    footer > p{
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,217 @@
+@charset "UTF-8"
+@font-face {
+    font-family: 'Lemon';
+    src: url(../LEMONMILK-Medium.otf);
+}
+*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px black;
+    position: relative;
+}
+button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.linha{
+    width: 25px;
+    height: 2px;
+    display: block;
+    margin: 3px auto;
+    position: relative;
+    transform-origin: center;
+    transition: 0.2s;
+    background-color: rgb(0, 0, 0);
+}
+button.ativar .linha:nth-child(1){
+    transform: translateY(5px) rotate(-45deg);
+}
+button.ativar .linha:nth-child(3){
+    transform: translateY(-5px) rotate(45deg);
+}
+button.ativar .linha:nth-child(2){
+    width: 0;
+}
+button#lg{
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 10px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button#lg:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+button > p{
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', cursive;
+
+}
+nav{
+    display: flex;
+}
+ul{
+    display: none;
+    margin-top: 10px;
+}
+li{
+    position: relative;
+}
+a.menu:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+a.menu:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding-right: 20px;
+    font-family: 'Bebas Neue', cursive;  
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+div.logo{
+    top: 0px;
+    width: 127px;
+    height: 50px;
+    background-image: url(../imagens/logo.png);
+    position: absolute;
+    right: 45%;
+}
+div.invert{
+    filter: invert(1);
+    margin-top: 10px;
+    position: absolute;
+    left: 5px;
+}
+div#cadastro{
+    margin-top: 10px;
+}
+
+section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+}
+div#nike{
+    position: absolute;
+    top: 80%;
+    right: 80px;
+}
+button#nike{
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 10px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 2px black;
+}
+button#nike:hover{
+    background-color: black;
+    border: 1px solid #c7e964;
+    color: #c7e964;
+    box-shadow: 0px 0px 5px black;
+}
+div#info{
+    width: 55%;
+    height: 600px;
+}
+
+div#nome1{
+    background-image: url(../imagens/nike.png);
+    height: 200px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+div#info > p{
+    margin-top: 30px;
+    font-size: 1.3em;
+    padding-left: 40px;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+}
+div#foto{
+    background-image: url(../imagens/1.png);
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+}
+div#produto{
+    background-color: #c7e964;
+    border-radius: 50% 0% 0% 50%;
+    width: 45%;
+    height: 765px;
+    position: relative;
+    top: -90px;
+    z-index: -1;
+}
+div#social{
+    width: 100px;
+    display: flex;
+}
+#linkedin{
+    background-image: url(../imagens/linkedin.png);
+    height: 32px;
+    width: 32px;
+    filter: invert(1);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#github{
+    background-image: url(../imagens/github.png);
+    height: 32px;
+    width: 32px;
+    filter: invert(1);
+    margin-top: 20px;
+}
+footer > p{
+    color: white;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+  
+footer{
+    margin-top: 10px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}

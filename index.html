@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKE</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="btn-menu" onclick="clicou()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#" class="menu">HOME</a></li>
+                <li><a href="https://www.nike.com.br/busca?term=air%20max%2090" class="menu" target="_blank">PRODUTOS</a></li>
+                <li><a href="https://github.com/matheuscremer1" class="menu" target="_blank">CONTATO</a></li>
+            </ul>
+        </nav>
+            <a href="">
+                <div class="logo"></div>
+            </a>
+        <div id="cadastro">
+            <button id="lg"><p>LOGIN</p></button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="info">
+                <div id="nomes">
+                    <div id="nome1"></div>
+                </div>
+                <P>Nada tão elegante, nada tão confortável, nada tão comprovado. O <strong>Nike Air Max 90</strong> permanece fiel às suas raízes originais de corrida com a icônica sola Waffle, sobreposições costuradas e detalhes clássicos em TPU. As cores clássicas celebram seu visual moderno, enquanto o amortecimento Max Air adiciona conforto à jornada.</P>
+            </div>
+            <div id="nike">
+                <a href="https://www.nike.com.br/" target="_blank"><button id="nike"><p>Saiba mais</p></button></a>
+            </div>
+            <div id="produto"><div id="foto"></div></div>
+        </section>
+    </main>
+    <footer>
+        <a href="#">
+            <div class="logo invert"></div>
+        </a>
+        <p>A imagem do produto <strong>AIR MAX 90</strong> foi gerado pela Inteligencia Artificial BlueWillow.</p>
+       <div id="social">
+        <a href="https://www.linkedin.com/in/matheus-cremer-diniz-2a5b9a269/" target="_blank">
+            <div id="linkedin"></div>
+        </a>
+        <a href="https://github.com/matheuscremer1" target="_blank">
+            <div id="github"></div>
+        </a>
+       </div>
+    </footer>
+    <script>
+    showText(el,text,interval)
+        function clicou(){
+        const btn = document.getElementById('btn-menu')
+        btn.classList.toggle('ativar')
+        if(menu.style.display == 'block'){
+        menu.style.display = 'none'  
+        
+        }else{
+        menu.style.display = 'block'   
+
+        }}
+    </script>
+</body>
+</html>
