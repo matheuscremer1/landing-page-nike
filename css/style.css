@@ -184,7 +184,7 @@ div#produto{
     z-index: -1;
 }
 section#foto{
-    height: 630px;
+    height: 730px;
     width: 100%;
     background-color: #01c2de;
     position: relative;
@@ -223,12 +223,11 @@ div#ft2{
     box-shadow: 1px 0px 5px rgba(0, 0, 0,0.5);
 }
 div#txt{
-    width: 90%;
-    height: 400px;
+    width: 100%;
+    height: 450px;
     background-color: white;
     position: relative;
-    top: 120px;
-    margin: auto;
+    top: 280px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0,0.5);
 }
 div#txt > h2{
@@ -236,7 +235,7 @@ div#txt > h2{
     color: #000000;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
-    box-shadow: 0px 1px 2px;
+    box-shadow: 0px 0px 1px;
 }
 div#cards{
     display: flex;
@@ -247,6 +246,14 @@ div.card{
     width: 250px;
     margin: 25px auto;
     border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-size: contain;
+    cursor: pointer;
+}
+div.card:hover{
+    height: 370px;
+    width: 270px;
+    background-size: contain;
 }
 div.card > p{
     text-align: center;
@@ -254,6 +261,7 @@ div.card > p{
     font-size: 1.5em;
     margin-top: 180px;
     font-family: 'Bebas Neue', cursive;
+    background-size: contain;
 }
 button.vjm{
     height: 40px;
