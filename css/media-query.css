@@ -29,14 +29,14 @@
         background-repeat: no-repeat;
         width: 300px;
         height: 200px;
-        margin-left: 5px;
-        margin-top: 20px;
+        margin: 20px auto;
     }
     div#info > p{
         font-size: 1.1em;
         padding: 0px 25px;
         width: 80%;
         margin-top: 0px;
+        text-align: center;
     }
     div#foto{
         background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     div#nike{
         position: absolute;
         top: 90%;
-        left: 20%;
+        left: 36%;
     }
     button#nike{
         width: 100%;
@@ -83,18 +83,67 @@
         top: 100px;
         right: 10%;
     }
+    div#banner > p{
+        font-size: 13pt;
+        width: 70%;
+        height: 25%;
+        padding-left: 50px;
+        text-align: center;
+    }
+    section#foto{
+        height: 1400px;
+    }
+    div#ft1{
+        background-image: url(../imagens/3-p.png);
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        margin: auto;
+        top: 20px;
+        background-repeat: no-repeat;
+        transition: 1s;
+        z-index: 1;
+    }
+    div#ft2{
+        background-image: url(../imagens/2-p.png);
+        height: 150px;
+        width: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: auto;
+        right: 12%;
+        top: 180px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    div#txt{
+        top: 350px;
+        height: 1050px;
+    }
+    div#cards{
+        display: block;
+    }
+    div.card{
+        height: 300px;
+        width: 250px;
+    }
+    button.vjm{
+        margin-top: 10px;
+        height: 30px;
+        width: 50%;
+    }
     footer > p{
         font-size: 0.7em;
         width: 50%;
         margin-left: 90px;
     }
     div#social{
-        margin-right: 10px;
+        margin-right: 5px;
     }
     #linkedin{
         margin-right: 5px;
     }
-    
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
     ul{
@@ -125,8 +174,7 @@
     div#nome1{
         background-size: contain;
         background-repeat: no-repeat;
-        width: 90%;
-        margin-left: 10px;
+        margin: auto;
         margin-top: 40px;
     }
     div#info > p{
@@ -137,22 +185,19 @@
     section{
         display: block;
         position: relative;
-        height: 900px;
-        
+        height: 800px; 
     }
     div#nike{
-        position: absolute;
-        top: 94%;
-        right: 2%;
+        left: 10%;
+        top: 122%;
     }
     button#nike{
         width: 200px;
         height: 50px;
     }
-  
     div#info{
         width: 100%;
-        height: 400px;
+        height: 300px;
         background-color: white;
         position: absolute;
         top: 370px;
@@ -169,8 +214,67 @@
         background-repeat: no-repeat;
         background-size: contain;
         width: 400px;
-        top: 100px;
+        top: 70px;
         right: 50px;
+    }
+    section#foto{
+        height: 1180px;
+    }
+    div#banner{
+        width: 100%;
+        background-image: url(../imagens/banner-m.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        height: 350px;
+        background-color: #01c2de;
+    }
+    div#banner > p{
+        font-size: 11pt;
+        width: 85%;
+        height: 25%;
+        padding-left: 50px;
+        text-align: justify;
+    }
+    div#ft1{
+        background-image: url(../imagens/3-p.png);
+        height: 120px;
+        width: 200px;
+        position: absolute;
+        left: 7%;
+        top: -20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 1s;
+        z-index: 1;
+    }
+    div#ft2{
+        background-image: url(../imagens/2-p.png);
+        height: 120px;
+        width: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 7%;
+        top: -20px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    div#txt{
+        top: 130px;
+        height: 1100px;
+    }
+    div#cards{
+        display: block;
+    }
+    div.card{
+        height: 300px;
+        width: 250px;
+    }
+    button.vjm{
+        margin-top: 10px;
+        height: 30px;
+        width: 50%;
     }
     div.invert{
         left: -40px;
@@ -192,10 +296,17 @@
         margin-left: 10px;
     }
     div#info > p{
-        font-size: 1.3em;
+        font-size: 1em;
         padding: 0px 25px;
         width: 80%;
         margin-top: 0px;
+    }
+    div#nike{
+        top: 73%;
+    }
+    button#nike{
+        width: 150px;
+        height: 50px;
     }
     div#foto{
         background-repeat: no-repeat;
@@ -204,6 +315,44 @@
         top: 100px;
         right: 10px;
         height: 500px;
+    }
+    section#foto{
+        height: 470px;
+    }
+    div#banner{
+        width: 100%;
+        background-image: url(../imagens/banner-m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 300px;
+    }
+    div#banner > p{
+        font-size: 11pt;
+        width: 35%;
+        padding-left: 50px;
+        text-align: justify;
+    }
+    div#ft1{
+        background-size: contain;
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        left: 10%;
+        top: -75px;
+    }
+    div#ft2{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        right: 10%;
+        top: -30px;
+    }
+    div#txt{
+        top: 60px;
+        height: 350px;
     }
     footer > p{
         margin-left: 20%;
