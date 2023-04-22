@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -38,7 +39,7 @@
     </header>
     <main>
         <section>
-            <div id="info">
+            <div id="info" data-aos="flip-left">
                 <div id="nomes">
                     <div id="nome1"></div>
                 </div>
@@ -49,24 +50,32 @@
             </div>
             <div id="produto"><div id="foto"></div></div>
         </section>
-        <div id="banner"><P>Nada tão elegante, nada tão confortável, nada tão comprovado. O <strong>Nike Air Max 90</strong> permanece fiel às suas raízes originais de corrida com a icônica sola Waffle, sobreposições costuradas e detalhes clássicos em TPU. As cores clássicas celebram seu visual moderno, enquanto o amortecimento Max Air adiciona conforto à jornada.</P></div>
+        <div id="banner"><div id="texto" data-aos="fade-right">
+            <p>Nada tão elegante, nada tão confortável, nada tão comprovado. O <strong>Nike Air Max 90</strong> permanece fiel às suas raízes originais de corrida com a icônica sola Waffle, sobreposições costuradas e detalhes clássicos em TPU. As cores clássicas celebram seu visual moderno, enquanto o amortecimento Max Air adiciona conforto à jornada.</p>
+        </div></div>
         <section id="foto">
-            <div id="ft1"></div>
-            <div id="ft2"></div>
+            <div id="ft1" data-aos="flip-up"></div>
+            <div id="ft2" data-aos="flip-down"></div>
             <div id="txt">
                 <h2>OUTROS PRODUTOS</h2>
                 <div id="cards">
-                    <div class="card" id="card1">
+                    <div class="card" id="card1" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <p>Greyscale <br> Nike Air Max 90</p>
-                        <button class="vjm"><p>LOGIN</p></button>
+                        <button class="vjm"><p>SAIBA MAIS</p></button>
                     </div>
-                    <div class="card" id="card2">
+                    <div class="card" id="card2" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <p>University Red<br> Nike Air Max 90 Golf</p>
-                        <button class="vjm"><p>LOGIN</p></button>
+                        <button class="vjm"><p>SAIBA MAIS</p></button>
                     </div>
-                    <div class="card" id="card3">
+                    <div class="card" id="card3" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <p>Futura<br> Nike Air Max 90</p>
-                        <button class="vjm"><p>LOGIN</p></button>
+                        <button class="vjm"><p>SAIBA MAIS</p></button>
                     </div>
                 </div>
             </div>
@@ -85,7 +94,9 @@
         </a>
        </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+         AOS.init();
     showText(el,text,interval)
         function clicou(){
         const btn = document.getElementById('btn-menu')

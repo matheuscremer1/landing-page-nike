@@ -196,7 +196,7 @@ div#banner{
     height: 400px;
     box-shadow: inset 1px 0px 2px black;
 }
-div#banner > p{
+div#texto > p{
     padding-top: 30px;
     font-size: 1.3em;
     padding-left: 100px;
