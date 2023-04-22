@@ -117,22 +117,6 @@
         cursor: pointer;
         transition: 1s;
     }
-    div#txt{
-        top: 350px;
-        height: 1050px;
-    }
-    div#cards{
-        display: block;
-    }
-    div.card{
-        height: 300px;
-        width: 250px;
-    }
-    button.vjm{
-        margin-top: 10px;
-        height: 30px;
-        width: 50%;
-    }
     footer > p{
         font-size: 0.7em;
         width: 50%;
@@ -177,6 +161,10 @@
         margin: auto;
         margin-top: 40px;
     }
+    div#nome2{
+        display: none;
+
+    }
     div#info > p{
         font-size: 1.3em;
         padding: 0px 25px;
@@ -218,7 +206,7 @@
         right: 50px;
     }
     section#foto{
-        height: 1180px;
+        height: 200px;
     }
     div#banner{
         width: 100%;
@@ -229,7 +217,7 @@
         height: 350px;
         background-color: #01c2de;
     }
-    div#banner > p{
+    div#texto > p{
         font-size: 11pt;
         width: 85%;
         height: 25%;
@@ -242,7 +230,7 @@
         width: 200px;
         position: absolute;
         left: 7%;
-        top: -20px;
+        top: 30px;
         background-repeat: no-repeat;
         background-size: cover;
         transition: 1s;
@@ -256,25 +244,9 @@
         background-repeat: no-repeat;
         position: absolute;
         right: 7%;
-        top: -20px;
+        top: 30px;
         cursor: pointer;
         transition: 1s;
-    }
-    div#txt{
-        top: 130px;
-        height: 1100px;
-    }
-    div#cards{
-        display: block;
-    }
-    div.card{
-        height: 300px;
-        width: 250px;
-    }
-    button.vjm{
-        margin-top: 10px;
-        height: 30px;
-        width: 50%;
     }
     div.invert{
         left: -40px;
@@ -294,6 +266,9 @@
         background-repeat: no-repeat;
         width: 400px;
         margin-left: 10px;
+    }
+    div#nome2{
+        margin: 230px auto;
     }
     div#info > p{
         font-size: 1em;
@@ -327,8 +302,8 @@
         background-position: top;
         height: 300px;
     }
-    div#banner > p{
-        font-size: 11pt;
+    div#texto > p{
+        font-size: 13pt;
         width: 35%;
         padding-left: 50px;
         text-align: justify;
@@ -339,7 +314,7 @@
         height: 180px;
         position: absolute;
         left: 10%;
-        top: -75px;
+        top: 50px;
     }
     div#ft2{
         background-size: contain;
@@ -348,11 +323,7 @@
         height: 180px;
         position: absolute;
         right: 10%;
-        top: -30px;
-    }
-    div#txt{
-        top: 60px;
-        height: 350px;
+        top: 50px;
     }
     footer > p{
         margin-left: 20%;
